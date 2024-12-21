@@ -145,23 +145,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Fondo.cpp" />
-    <ClCompile Include="Transparencias.cpp" />
-    <ClCompile Include="Ajedrez.cpp" />
-    <ClCompile Include="Plataformas.cpp" />
-    <ClCompile Include="Sniper.cpp" />
-    <ClCompile Include="Rotacion.cpp" />
+    <ClCompile Include="Bounce.cpp" />
     <ClCompile Include="EntryPoint.cpp" />
-    <ClCompile Include="Cuadrados.cpp" />
+    <ClCompile Include="FastAndFurious.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Space.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Fondo.h" />
-    <ClInclude Include="Transparencias.h" />
-    <ClInclude Include="Ajedrez.h" />
-    <ClInclude Include="Plataformas.h" />
-    <ClInclude Include="Sniper.h" />
-    <ClInclude Include="Rotacion.h" />
-    <ClInclude Include="Cuadrados.h" />
+    <ClInclude Include="Bounce.h" />
+    <ClInclude Include="FastAndFurious.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Space.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
