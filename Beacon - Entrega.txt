@@ -1,2 +1,8 @@
 Repositorio público
 	https://github.com/Ducinaltum/mavi-unidad6.git
+
+Botones 1, 2, 3 y 4 para pasar de un ejercicio al siguiente
+
+El ejercicio 2 se controla con WASD
+
+El ejercicio 4 se controla con click
