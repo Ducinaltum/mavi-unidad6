@@ -3,8 +3,8 @@
 Bounce::Bounce(RenderWindow* rw) : Game()
 {
 	pWnd = rw;
-	m_acceleration = 0.005;
-	m_maxSpeed = 5;
+	m_acceleration = 300;
+	m_maxSpeed = 500;
 	m_friction = 0.001;
 	m_gravity = 9.8;
 	m_velocity = new Vector2f(0, 0);

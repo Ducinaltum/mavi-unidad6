@@ -10,6 +10,7 @@ class Game
 {
 private:
 	Game * m_currentGame;
+	Clock clock;
 protected:
 	RenderWindow * pWnd;
 	virtual void ProcessEvent(Event& evt);

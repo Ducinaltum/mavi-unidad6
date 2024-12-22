@@ -149,13 +149,21 @@
     <ClCompile Include="EntryPoint.cpp" />
     <ClCompile Include="FastAndFurious.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="PhysicsTarget.cpp" />
     <ClCompile Include="Space.cpp" />
+    <ClCompile Include="UniformBallTarget.cpp" />
+    <ClCompile Include="UniformVariatedBallTarget.cpp" />
+    <ClCompile Include="WildPhysics.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bounce.h" />
     <ClInclude Include="FastAndFurious.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="PhysicsTarget.h" />
     <ClInclude Include="Space.h" />
+    <ClInclude Include="UniformBallTarget.h" />
+    <ClInclude Include="UniformVariatedBallTarget.h" />
+    <ClInclude Include="WildPhysics.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -4,9 +4,9 @@
 Space::Space(RenderWindow* rw) : Game()
 {
 	pWnd = rw;
-	m_acceleration = 0.05;
-	m_maxSpeed = 5;
-	m_friction = 0.001;
+	m_acceleration = 5000;
+	m_maxSpeed = 10000;
+	m_friction = 0.0025;
 	m_velocity = new Vector2f(0, 0);
 	m_input = new Vector2f(0, 0);
 	Texture* ballTexture = new Texture();
